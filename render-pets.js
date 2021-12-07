@@ -7,8 +7,7 @@ export function renderPets(petData) {
 
     // text content of petPropertyEl p is a string pet.type pet.name pet.age
     petPropertyEl.textContent = `I have a ${petData.type} named ${petData.name}, and their age is ${petData.age}`;
-    // console.log(petPropertyEl);
-
+    
     // add class of list to petContainerEl div
     petContainerEl.classList.add('list');
     
