@@ -14,4 +14,12 @@ section.list {
     flex-direction: column;
     background: aliceblue;
     margin: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #3d3d3d;
+    border-radius: 1rem;
+}
+
+p {
+    margin: 0.5rem;
 }
